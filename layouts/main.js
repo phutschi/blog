@@ -1,10 +1,10 @@
 import Meta from '../components/meta'
-import Link from 'next/prefetch'
+import Link from 'next/link'
 
 export default ({ children }) => (
   <div className="main">
     <div className="logo">
-      <Link href="/"><a>quiez.io</a></Link>
+      <Link prefetch href="/"><a>quiez.io</a></Link>
       {' '}
     </div>
 
